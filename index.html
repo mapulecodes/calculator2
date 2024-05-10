@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicki Minaj Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <img src="nicki img/5b8ec7d2b82dd19b5b313a923955a08f.jpg" alt="Nicki Minaj Poster" class="img-fluid">
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <br>
+        <button class="button" onclick="appendToDisplay('7')">7</button>
+        <button class="button" onclick="appendToDisplay('8')">8</button>
+        <button class="button" onclick="appendToDisplay('9')">9</button>
+        <button class="button" onclick="appendToDisplay('+')">+</button>
+        <br>
+        <button class="button" onclick="appendToDisplay('4')">4</button>
+        <button class="button" onclick="appendToDisplay('5')">5</button>
+        <button class="button" onclick="appendToDisplay('6')">6</button>
+        <button class="button" onclick="appendToDisplay('-')">-</button>
+        <br>
+        <button class="button" onclick="appendToDisplay('1')">1</button>
+        <button class="button" onclick="appendToDisplay('2')">2</button>
+        <button class="button" onclick="appendToDisplay('3')">3</button>
+        <button class="button" onclick="appendToDisplay('*')">*</button>
+        <br>
+        <button class="button" onclick="appendToDisplay('0')">0</button>
+        <button class="button" onclick="clearDisplay()">C</button>
+        <button class="button" onclick="calculate()">=</button>
+        <button class="button" onclick="appendToDisplay('/')">/</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
